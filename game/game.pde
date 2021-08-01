@@ -354,7 +354,7 @@ void background_img() {
     img.resize( width, height );
     background(img);
   } else if (imgscene==3) {
-    img = loadImage("background3.jpg");
+    img = loadImage("background3.jpeg");
     img.resize( width, height );
     background(img);
   }
@@ -413,7 +413,7 @@ void background_img(int x, int y) {
     img.resize(width, height);
     image(img, x, y, width, height);
   } else if(imgscene == 3) {
-    img = loadImage("background3.jpg");
+    img = loadImage("background3.jpeg");
     img.resize(width, height);
     image(img, x, y, width, height);
   }
