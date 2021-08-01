@@ -377,7 +377,7 @@ void player_img(int x, int y, int size) {
     img.resize(size, size);
     image(img, x-size/2, y-size/2, size, size);
   } else if (imgscene==3) {
-    img = loadImage("player3.png");
+    img = loadImage("player3.jpg");
     img.resize(size, size);
     image(img, x-size/2, y-size/2, size, size);
   }
@@ -394,7 +394,7 @@ void hunter_img(int x, int y, int size) {
     img.resize(size, size);
     image(img, x-size/2, y-size/2, size, size);
   } else if (imgscene==3) {
-    img = loadImage("hunter3.png");
+    img = loadImage("hunter3.jpg");
     img.resize(size, size);
     image(img, x-size/2, y-size/2, size, size);
   }
@@ -435,7 +435,7 @@ void goal_img(int x, int y, int size) {
     img.resize(size, size);
     image(img, x, y, size, size);
   } else if (imgscene==3) {
-    img = loadImage("goal3.png");
+    img = loadImage("goal3.jpg");
     img.resize(size, size);
     image(img, x, y, size, size);
   }
